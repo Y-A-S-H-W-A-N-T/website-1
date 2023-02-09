@@ -39,16 +39,30 @@ nav{
     margin-right: 30px;
 }
 
-.reg a{
+.register{
     border: 1px solid white;
     padding: 8px;
 }
 
-.reg a:hover{
+.register:hover{
     border: 1px solid white;
     background-color: rgb(189, 140, 235);
     padding: 8px;
 }
+
+
+.reg li{
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+}
+
+.reg li img{
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+}
+
 /* search bar */
 
 .search_bar{
