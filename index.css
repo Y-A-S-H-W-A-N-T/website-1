@@ -19,18 +19,27 @@ a{
     margin: 10px;
     float: left;
     color: white;
-    font-family: cursive;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 nav{
     background-color: rgb(172, 101, 238);
 }
+.navbar{
+    margin: 0px;
+}
 
 .navbar img{
-    height: 35px;
-    width: 35px;
+    height: 50px;
+    width: 80px;
     margin: 0px;
     margin-left: -30px;
+}
+
+.contact{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 20px;
 }
 
 .reg{
@@ -45,6 +54,7 @@ nav{
 }
 
 .register:hover{
+    transition: 400ms;
     border: 1px solid white;
     background-color: rgb(189, 140, 235);
     padding: 8px;
@@ -70,12 +80,16 @@ nav{
     justify-content: center;
     margin-top: 50px;
     border-radius: 50px;
+    background-color: rgb(220, 209, 227);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .search_bar input{
     background-color: rgb(220, 209, 227);
     padding: 25px;
-    width: 60%;
+    width: 800px;
     border-radius: 50px;
     border: none;
     font-size: 20px;
@@ -91,4 +105,40 @@ nav{
 .search_bar a{
     display: flex;
     align-items: center;
+}
+
+/* add section */
+
+.add{
+    display: flex;
+}
+
+.add img{
+    display: flex;
+    flex-direction: column;
+}
+
+.add h1{
+    display: flex;
+    flex: auto;
+    align-items: center;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.add a{
+    margin-top: 200px;
+    color: white;
+    margin-left: -400px;
+    background-color: rgb(172, 101, 238);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.add a:hover{
+    transition: 500ms;
+    background-color: rgb(137, 54, 214);
+    font-size: 28px;
+    border-radius: 50px;
 }

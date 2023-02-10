@@ -75,10 +75,14 @@ h3{
 }
 .input-box{
     display: flex;
-   flex-direction: column;
-   margin-bottom: 10px;
-   width: 50%;
+    flex-direction: column;
+    width: 50%;
 }
+
+.input-box textarea{
+    width: 200%;    
+}
+
 .details{
     color: rgb(238, 107, 19);
     margin-top: 10px;
