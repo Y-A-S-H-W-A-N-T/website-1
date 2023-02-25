@@ -114,6 +114,8 @@ nav{
 }
 
 .add img{
+    height: 50%;
+    width: 50%;
     display: flex;
     flex-direction: column;
 }
@@ -142,3 +144,54 @@ nav{
     font-size: 28px;
     border-radius: 50px;
 }
+
+/* horizontal scroll bar */
+
+.cover{
+    display: flex;
+    margin-left: 50px;
+    width: 90%;
+    height: 50%;
+}
+
+.scroll-images{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    overflow: auto;
+}
+
+.child{
+    min-width: 430px;
+    height: 400px;
+    margin: 1px 5px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.child-images{
+    height: 100%;
+    width: 100%;
+}
+
+/* footer */
+
+footer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 200px;
+}
+
+footer li{
+    display: flex;
+    justify-content: right;
+}
+
+footer li a:hover{
+    border-bottom: 2px solid white;
+}    
